@@ -15,7 +15,7 @@
 
 
 (function() {
-	CKEDITOR.plugins.add('googleterm', {
+	CKEDITOR.plugins.add('googlethisterm', {
         init: function(editor) {
         	if (editor.contextMenu) {
 			    editor.addMenuGroup('googleTermGroup');
